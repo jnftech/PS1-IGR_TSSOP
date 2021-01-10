@@ -9,11 +9,11 @@ Code, details of the solution, original PCB design, and instructions for program
 
 
 <p align="center">
-  <img width="300" src="images/PS1-IGR TSSOP Version (20210109) svg top.png">
+  <img width="300" src="Images/PS1-IGR TSSOP Version (20210109) svg top.png">
 </p>
 
 <p align="center">
-  <img width="300" src="images/PS1-IGR TSSOP Version Top.jpg"> <img width="300" src="images/PS1-IGR TSSOP Version Bottom.jpg">
+  <img width="300" src="Images/PS1-IGR TSSOP Version Top.jpg"> <img width="300" src="Images/PS1-IGR TSSOP Version Bottom.jpg">
 </p>
 
 ### Why?
@@ -25,7 +25,7 @@ The gerber is shared on Oshpark for convenience: https://oshpark.com/shared_proj
 Size comparison to the original board:
 
 <p align="center">
-  <img width="640" src="images/PS1-IGR TSSOP Size comparison.png">
+  <img width="640" src="Images/PS1-IGR TSSOP Size comparison.png">
 </p>
 
 ### BOM:
