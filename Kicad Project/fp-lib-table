@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PS1-IGR)(type KiCad)(uri ${KIPRJMOD}/PS1-IGR.pretty)(options "")(descr ""))
+)
