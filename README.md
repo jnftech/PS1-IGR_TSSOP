@@ -44,7 +44,7 @@ Only two components are needed:
 
 ### Tools used for this project:
 - Tracespace View (SVG conversions of gerbers for the above images) https://tracespace.io/view/
-- KiCad 5.1.8 https://www.kicad-pcb.org/
+- KiCad 5.1.8 https://www.kicad.org/
 - Inkscape https://inkscape.org/
 
 ### License:
