@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name PlayStation-1-Reset-Mod)(type Legacy)(uri "${KIPRJMOD}/PlayStation 1 Reset Mod.lib")(options "")(descr ""))
-  (lib (name PlayStation-1-Reset-Mod-rescue)(type Legacy)(uri "${KIPRJMOD}/PlayStation 1 Reset Mod-rescue.lib")(options "")(descr ""))
-)
