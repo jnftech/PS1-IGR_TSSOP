@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PlayStation-1-Reset-Mod")(type "Legacy")(uri "${KIPRJMOD}/PlayStation 1 Reset Mod.lib")(options "")(descr ""))
+  (lib (name "PlayStation-1-Reset-Mod-rescue")(type "Legacy")(uri "${KIPRJMOD}/PlayStation 1 Reset Mod-rescue.lib")(options "")(descr ""))
+  (lib (name "PS1-IGR JFT CTRLR TSSOP-rescue")(type "KiCad")(uri "${KIPRJMOD}/PS1-IGR JFT CTRLR TSSOP-rescue.kicad_sym")(options "")(descr ""))
+)

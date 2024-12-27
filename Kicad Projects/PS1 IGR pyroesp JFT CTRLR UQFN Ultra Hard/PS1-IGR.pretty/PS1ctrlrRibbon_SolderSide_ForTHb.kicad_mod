@@ -1,0 +1,154 @@
+(footprint "PS1ctrlrRibbon_SolderSide_ForTHb"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 10 0.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "db638782-6f93-4533-9c90-9ace364a4733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PS1 Controller 1 (Solder Side)"
+		(at 4 -2.5 0)
+		(layer "F.Fab")
+		(uuid "088006eb-c367-498c-86bc-43b31c2f6d86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75b62303-9e52-4562-b9fb-ae3ee73eb0f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecc9ec2b-86f3-4731-a619-c82e8102c8e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6e2f325-8e5d-48a2-ba7a-c7c52ea8a74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 6 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f1e0f446-df53-417c-9d53-55eb8484c086")
+	)
+	(pad "" np_thru_hole circle
+		(at 7 2.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c935b775-7023-4217-8da4-c17ea4d57e08")
+	)
+	(pad "" np_thru_hole circle
+		(at 8 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c0ad65db-066b-4cf7-9f64-8d9302d90618")
+	)
+	(pad "" np_thru_hole circle
+		(at 9 2.5)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "37a75f67-f0b2-4406-b692-11de601f9247")
+	)
+	(pad "1" thru_hole oval
+		(at 4 0)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "205b4697-938e-4bba-8fae-7623c176176e")
+	)
+	(pad "2" thru_hole oval
+		(at 2 0)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a56ec1c-aba6-4e25-ae24-c4e977538f7f")
+	)
+	(pad "4" thru_hole oval
+		(at 3 2.5)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0413dbf0-5376-440b-84f2-b93d4abc2d2a")
+	)
+	(pad "5" thru_hole oval
+		(at 1 2.5)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e16181c1-6548-45c5-a2fa-0c522ca04894")
+	)
+	(pad "6" thru_hole oval
+		(at 5 2.5)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b76d42d1-a93c-4691-a72c-3ae0d9beec42")
+	)
+	(pad "7" thru_hole oval
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 1.2
+			(offset 0 -0.25)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10d35012-18cc-4a04-94e0-48400042fa72")
+	)
+)
