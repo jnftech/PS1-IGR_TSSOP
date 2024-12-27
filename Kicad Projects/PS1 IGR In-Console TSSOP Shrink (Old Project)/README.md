@@ -1,5 +1,11 @@
 # Playstation 1 In-Game Reset (IGR) - TSSOP Version
 
+
+
+*Note this is the project I originally uploaded here, which is more or less just a shrink of PyroESP's original project. Unless you need an in-console solution, versus a controller PCB install, it is recommended to stick with one of the controller PCB options in this repository.*
+
+
+
 This is a shrink of the PCB for [pyroesp's](https://github.com/pyroesp) Playstation 1 Reset Mod code, found at https://github.com/pyroesp/PlayStation-1-Reset-Mod
 
 Quick overview: The project, when installed into a Playstation 1 system, allows an in-game reset based on a combination of controller buttons. This is most handy when paired with an ODE to reset back to a disc selection menu.
