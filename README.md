@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-These boards are variations on PyroESP's [pyroesp's](https://github.com/pyroesp) Playstation 1 Reset Mod project.
+These boards are variations on [PyroESP's](https://github.com/pyroesp) Playstation 1 Reset Mod project.
 
 The original project and code can be found at https://github.com/pyroesp/PlayStation-1-Reset-Mod
 
@@ -58,6 +58,7 @@ Only two components are needed:
         [Murata GCJ188R71E104KA12D](https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221)
 
 ### Notes:
+- These have not been designed with the PSone in mind, and are only tested on the original "phat" models. While the PSones have no good ODE option (where this mod is most useful), I may take a quick look the next time I have a PSone open (maybe requires another board revision). 
 - There are other variants of the MDU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
   - The "I/" in the part number can be swapped with the "E/" variant. The latter is just "Extended Tempurature range"
   - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
