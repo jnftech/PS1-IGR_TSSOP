@@ -60,7 +60,7 @@ Only two components are needed:
 ### Notes:
 - There are other variants of the MDU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
   - The "I/" in the part number can be swapped with the "E/" variant. The latter is just "Extended Tempurature range"
-  - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MSU with a little bit more memory and storage. Same HEX file can be used to program either. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
+  - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
 - You will of course need a programmer to flash the code to the microcontroller, such as a PICkit3. This can be done in several ways:
   - The ICSP pads on board by soldering some temporary wiring to connect it to the programmer.
   - The ICSP pads by using a 2mm pitch pogo-pin PCB clamp such as this one on [Aliexpress](https://www.aliexpress.com/i/3256806664884457.html)
