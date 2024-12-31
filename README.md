@@ -25,7 +25,6 @@ Code, details of the solution, original PCB design, and instructions for program
 </p>
 
 This variant more or less aimed to substitute the faulty one on OSHpark. Installs over the solder points for controller port 1 and uses the SOIC package of the microcontroller (MCU). This should be fairly easy to assemble for anyone with decent soldering skills.
-
 [Oshpark link](https://oshpark.com/shared_projects/fwJTyytg)
 
 #### Controller-port (Port 1) install, TSSOP Package (Hard difficulty)
@@ -35,7 +34,6 @@ This variant more or less aimed to substitute the faulty one on OSHpark. Install
 </p>
 
 This is almost identical to the above variant, and installs the exact same way. The only difference is the use of the TSSOP package for the MCU. This requires slightly tighter soldering skills.
-
 [Oshpark link](https://oshpark.com/shared_projects/G71d1amG)
 
 #### Controller-ribbon connector (Center of controller PCB) install, UQFN Package (Ultrahard difficulty)
@@ -45,7 +43,6 @@ This is almost identical to the above variant, and installs the exact same way. 
 </p>
 
 Staying in the same spirit as my original visit to the project, this board aims to be as small is it can be. I realized that another spot on the controller PCB contained all the same signals as the controller port: The connector for the ribbon cable that connects the controller assembly to the main system board. This PCB installs to the back of that connector instead of the controller port. Continuing with that same spirit, I figured go all out and use the UQFN package of the MCU - which is the smallest package it comes in. However this means this board is significantly more difficult to assemble by hand. Not impossible - I hand assembled the one installed in my main console - but takes very good soldering skills and tools. I imagine this is the smallest "one-wire" install of this solution available. All that said, the actual installation of the board into the console should not be much more difficult than the other two options.
-
 [Oshpark link](https://oshpark.com/shared_projects/B2ZQAGCg)
 
 
