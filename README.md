@@ -48,18 +48,19 @@ Staying in the same spirit as my original visit to the project, this board aims 
 
 Only two components are needed:
 
-**U1** Depending on which board you which to assemble, the part number for the MCU will differ slightly (only the last two characters of the part number matter in this case)
-  SOIC: Microchip PIC16F18325-I/SL. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-SL/5323625)
-  TSSOP: Microchip PIC16F18325-I/ST. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-ST/5323626)
-  UQFN: Microchip PIC16F18325-I/JQ. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-JQ/5639473)
-**C1**: You really don't need to be picky about this part. Any 100nf to 1000nf/1uf 0603-sized Ceramic capacitor rated at 16v or above will work. <br />
+**U1**<br/> Depending on which board you which to assemble, the part number for the MCU will differ slightly (only the last two characters of the part number matter in this case)
+- SOIC: Microchip PIC16F18325-I/SL. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-SL/5323625)
+- TSSOP: Microchip PIC16F18325-I/ST. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-ST/5323626)
+- UQFN: Microchip PIC16F18325-I/JQ. [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325-I-JQ/5639473)
+
+**C1**:<br/>You really don't need to be picky about this part. Any 100nf to 1000nf/1uf 0603-sized Ceramic capacitor rated at 16v or above will work. <br />
     Examples:<br />
         [Samsung CL10B104KB8NNNL](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNL/3894274)<br />
         [Murata GCJ188R71E104KA12D](https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221)
 
 ### Notes:
 - These have not been designed with the PSone in mind, and are only tested on the original "phat" models. While the PSones have no good ODE option (where this mod is most useful), I may take a quick look the next time I have a PSone open (maybe requires another board revision). 
-- There are other variants of the MDU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
+- There are other variants of the MCU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
   - The "I/" in the part number can be swapped with the "E/" variant. The latter is just "Extended Tempurature range"
   - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. The board I installed in my main console uses the PIC16F18326-E/JQ part. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
 - You will of course need a programmer to flash the code to the microcontroller, such as a PICkit3. This can be done in several ways:
