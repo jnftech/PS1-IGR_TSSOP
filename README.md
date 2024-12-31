@@ -1,5 +1,5 @@
 ## Playstation 1 In-Game Reset (IGR)
-### PCBs for One-wire Controller-PCB installs
+### QSBs for One-wire Controller-PCB installs
 <br/>
 <br/>
 
@@ -11,7 +11,7 @@ To simplify the goal of this project: When installed into a Playstation 1 system
 
 Originally I had posted a variation that was more or less a shrink of their original PCB (which used a SOIC package for the microcontroller), instead using the TSSOP version - to get the board as small as it could be for S&Gs and more of a "hardmode" install. This version of the project (while deprecated, unless you REALLY need to avoid installing to the controller PCB) is still hosted in the repository.
 
-A while back (2002? Yes it has taken me that long to publish the final versions here) a member of the [Consolemods.org](https://www.consolemods.org) discord observed a variation on OSHpark that installed to the back of the controller PCB behind the player 1 port. However the project was not laid out correctly, thus the wrong (higher) voltage was applied to the microcontroller. Such a solution allows for a so-called "one-wire" install. In other words, compared to the original project that required a wire for each signal and power rail, these "one-wire" boards are designed to sit on another PCB in a way where the signals can be tapped directly. All but one of the signals needed are available from the solder points of the controller ports themselves. The only wire that must be run is for the reset signal.
+A while back (2002? Yes it has taken me that long to publish the final versions here) a member of the [Consolemods.org](https://www.consolemods.org) discord observed a variation on OSHpark that installed to the back of the controller PCB behind the player 1 port. However the project was not laid out correctly, thus the wrong (higher) voltage was applied to the microcontroller. This style of board is a "Quick Solder Board" (QSB), where the board is designed to sit on top of another PCB and solder directly to signal points (versus running a wire for each signal). Such a solution allows for a "one-wire" install of this project. All but one of the signals needed are available from the solder points of the controller ports themselves. The only wire that must be run is for the reset signal.
 While these controller-PCB-mounted solutions were not uncommon at the time, the project on OSHpark appeared to the only published gerbers for folks that prefer to fabricate their own PCBs.
 I decided to revisit the project to produce a correctly-wired version, using my own consoles for measurement. Some earlier versions of the gerbers were posted to the discord for members to use. This respository has three variations depending on your soldering preferences.
   
@@ -40,7 +40,7 @@ This is almost identical to the above variant, and installs the exact same way. 
   <img src="images/PS1 IGR pyroesp JFT CTRLR UQFN Ultra Hard (20241219) ds.png">
 </p>
 
-Staying in the same vein as my original visit to the project, this board aims to be as small is it can be. I realized that another spot on the controller PCB contained all the same signals as the controller port: The connector for the ribbon cable that connects the controller assembly to the main system board. This PCB installs to the back of that connector instead of the controller port. Continuing with that same spirit, I figured go all out and use the UQFN package of the MCU - which is the smallest package it comes in. However this means this board is significantly more difficult to assemble by hand. Not impossible - I hand assembled one of these that installed in my main console - but takes very good soldering skills and tools. I imagine this is the smallest "one-wire" install of this solution available. All that said, the actual installation of the board into the console should not be much more difficult than the other two options.
+Staying in the same spirit as my original visit to the project, this board aims to be as small is it can be. I realized that another spot on the controller PCB contained all the same signals as the controller port: The connector for the ribbon cable that connects the controller assembly to the main system board. This PCB installs to the back of that connector instead of the controller port. Continuing with that same spirit, I figured go all out and use the UQFN package of the MCU - which is the smallest package it comes in. However this means this board is significantly more difficult to assemble by hand. Not impossible - I hand assembled the one installed in my main console - but takes very good soldering skills and tools. I imagine this is the smallest "one-wire" install of this solution available. All that said, the actual installation of the board into the console should not be much more difficult than the other two options.
 
 
 
@@ -61,7 +61,7 @@ Only two components are needed:
 - These have not been designed with the PSone in mind, and are only tested on the original "phat" models. While the PSones have no good ODE option (where this mod is most useful), I may take a quick look the next time I have a PSone open (maybe requires another board revision). 
 - There are other variants of the MDU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
   - The "I/" in the part number can be swapped with the "E/" variant. The latter is just "Extended Tempurature range"
-  - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
+  - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. The board I installed in my main console uses the PIC16F18326-E/JQ part. I haven't researched whether the **324** can be used (less memory/storage than the 325). 
 - You will of course need a programmer to flash the code to the microcontroller, such as a PICkit3. This can be done in several ways:
   - The ICSP pads on board by soldering some temporary wiring to connect it to the programmer.
   - The ICSP pads by using a 2mm pitch pogo-pin PCB clamp such as this one on [Aliexpress](https://www.aliexpress.com/i/3256806664884457.html)
